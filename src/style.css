@@ -1,0 +1,107 @@
+.change {
+  font-size: 14px;
+}
+body {
+  background: radial-gradient(circle at 10% 20%, #862fc7 0%, #eb3889 90%);
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  background: #e9db50;
+  color: #a651b1;
+  font-size: 16px;
+  border: 1px solid #e9db50;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  color: white;
+  border: 1px solid white;
+  box-shadow: 3px 3px 5px white;
+  cursor: pointer;
+}
+.content {
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 auto;
+}
+h1 {
+  color: #e9db50;
+}
+h2 {
+  color: white;
+}
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+}
+img:hover {
+  opacity: 0.9;
+  transform: scale(110%);
+}
+.grid {
+  display: grid;
+  margin: 15px 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.grid img {
+  width: 100%;
+}
+.grid img:hover {
+  transform: scale(120%);
+}
+p {
+  text-align: justify;
+}
+.skating-activities {
+  color: #e9db50;
+  font-weight: 700;
+}
+.links {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 14px;
+}
+.dark {
+  background: radial-gradient(circle at 10% 20%, #280f3b 0%, #96104c 90%);
+}
+.dark .content {
+  max-width: 600px;
+  background-color: rgba(000, 000, 000, 0.7);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.dark h2 {
+  color: #eb3889;
+}
+.dark p {
+  color: white;
+}
+.dark .links {
+  color: #e9db50;
+}
+.dark span {
+  color: #eb3889;
+}
+.dark button {
+  background-color: #eb3889;
+  color: #280f3b;
+  border: 1px solid #eb3889;
+}
+.dark button:hover {
+  color: white;
+  border: 1px solid white;
+}
